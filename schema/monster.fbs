@@ -1,0 +1,15 @@
+namespace FbDemo.Sample;
+
+table Vec3 {
+  x:float;
+  y:float;
+  z:float;
+}
+
+table Monster {
+  pos:Vec3;
+  hp:int = 100;
+  name:string;
+}
+
+root_type Monster;

@@ -1,0 +1,5 @@
+[workspace]
+
+members = ["fb-rs"]
+
+resolver = "3"
